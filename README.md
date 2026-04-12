@@ -1,14 +1,4 @@
-# Hindi Speech-to-Text Fine-Tuning — Research Document
-
-**Name:** Aneerban  
-**Position:** AI Engineer Intern  
-**Company:** MySivi  
-
----
-
-📓 **Notebook Link:** [Add your public Colab link here]  
-🎥 **Video Demo Link:** [Add your public video link here]  
-
+# Hindi Speech-to-Text Fine-Tuning
 ---
 
 ## 1. Introduction & Objective
@@ -226,29 +216,5 @@ Given more time and resources, the following improvements could be explored:
 
 8. **Streaming support**: Implement chunked audio processing for real-time transcription of live Hindi audio streams.
 
----
 
-## 8. Assumptions Made
 
-As mentioned in the assignment, the following assumptions were made:
-
-1. **Dataset choice**: Chose FLEURS over Common Voice due to access restrictions on Common Voice. FLEURS provides sufficient Hindi data for meaningful fine-tuning.
-2. **Model size**: Chose Whisper Small over larger variants to ensure feasibility on free GPU resources while still achieving strong results.
-3. **Training duration**: Limited to 2,000 steps (~1.5 hours) as a practical constraint of free Colab sessions. Longer training may yield further improvements.
-4. **Evaluation scope**: Evaluated on the FLEURS test set only. Real-world performance may vary with different accents, recording conditions, and speaking styles.
-
----
-
-## 9. References
-
-1. Radford, A., Kim, J.W., Xu, T., Brockman, G., McLeavey, C., Sutskever, I. (2023). "Robust Speech Recognition via Large-Scale Weak Supervision." *OpenAI*. [Paper](https://arxiv.org/abs/2212.04356)
-2. Google FLEURS Dataset: [https://huggingface.co/datasets/google/fleurs](https://huggingface.co/datasets/google/fleurs)
-3. Conneau, A., et al. (2022). "FLEURS: Few-shot Learning Evaluation of Universal Representations of Speech." *Google*. [Paper](https://arxiv.org/abs/2205.12446)
-4. HuggingFace Whisper Fine-Tuning Guide: [https://huggingface.co/blog/fine-tune-whisper](https://huggingface.co/blog/fine-tune-whisper)
-5. Whisper Model Card: [https://huggingface.co/openai/whisper-small](https://huggingface.co/openai/whisper-small)
-
----
-
-*Submitted by: Aneerban*  
-*Date: [Fill in submission date]*  
-*Email: hiring@mysivi.ai*
