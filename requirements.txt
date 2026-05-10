@@ -1,8 +1,2 @@
 streamlit
-torch
-transformers
-librosa
-numpy
-accelerate
-soundfile
-torchvision
+requests
