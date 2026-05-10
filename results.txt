@@ -1,0 +1,17 @@
+
+Hindi Speech-to-Text Fine-Tuning Results
+==========================================
+
+Model: openai/whisper-small
+Dataset: google/fleurs (hi_in)
+Training Steps: 2000
+Learning Rate: 1e-05
+Batch Size: 16
+
+Results on Test Set (418 samples):
+--------------------------------------------------
+Model                      WER (%)    CER (%)
+Whisper Small (Base)       68.61     34.43
+Whisper Small (Fine-tuned) 26.87     10.41
+--------------------------------------------------
+Improvement                +41.73     +24.02
